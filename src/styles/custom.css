@@ -1,0 +1,44 @@
+
+.logoTeam {
+  object-fit: cover;
+  width: 100%;
+  padding: 10px;
+}
+
+.detailTeam{
+  position: relative;
+  z-index: 1;
+}
+
+.detailTeam:before {
+  content: "";
+  position: absolute;
+  height: 80%;
+  left:0;
+  top: 0;
+  border-left: 1px solid gray
+}
+
+.fixedRight{
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+}
+
+.slider {
+  height: 70vh;
+}
+
+.titleRow {
+  margin-top: 8px;
+  background-color: rgba(96, 103, 104, 0.26);
+  border-bottom: 1px solid rgba(139, 139, 139, 0.342);
+  border-top: 1px solid rgba(139, 139, 139, 0.342);
+
+}
+  
+.list-group-item {
+  background-color: black !important;
+}
